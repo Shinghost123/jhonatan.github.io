@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Institución Educativa Riverita</title>
+<style>
+  /* ======= ESTILOS GENERALES ======= */
+  body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f3f5ff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ======= CABECERA ======= */
+  header {
+    background-color: #002f7a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: 1px;
+  }
+
+  /* ======= MENÚ DE NAVEGACIÓN ======= */
+  nav {
+    background-color: #0043b5;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #ffeb3b;
+  }
+
+  /* ======= SECCIÓN PRINCIPAL ======= */
+  .banner {
+    background: url('https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=60') no-repeat center top;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 40px;
+    font-size: 1.8em;
+    border-radius: 8px;
+  }
+
+  /* ======= SECCIONES ======= */
+  section {
+    padding: 50px 120px;
+    text-align: justify;
+  }
+
+  section h2 {
+    color: #003e9b;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #003e9b;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .mision-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .mision-vision div {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 48%;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  /* ======= NOTICIAS ======= */
+  .noticias {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .noticia {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  .noticia h3 {
+    color: #003e9b;
+  }
+
+  /* ======= PIE DE PÁGINA ======= */
+  footer {
+    background-color: #002f7a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Institución Educativa Riverita</h1>
+  <p>Formando líderes para el futuro</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#nosotros">Nosotros</a>
+  <a href="#noticias">Noticias</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="banner" id="inicio">
+  <h2>Bienvenidos a la Institución Educativa Riverita</h2>
+</div>
+
+<section id="nosotros">
+  <h2>Sobre Nosotros</h2>
+  <div class="mision-vision">
+    <div>
+      <h3>Misión</h3>
+      <p>Nuestra institución busca ofrecer una educación integral, desarrollando las capacidades académicas, artísticas y sociales de nuestros estudiantes para que sean ciudadanos competentes y con valores.</p>
+    </div>
+    <div>
+      <h3>Visión</h3>
+      <p>Ser una institución reconocida por su excelencia educativa y su compromiso con el desarrollo humano, formando estudiantes con sentido crítico y compromiso con la sociedad.</p>
+    </div>
+  </div>
+</section>
+
+<section id="noticias">
+  <h2>Noticias Recientes</h2>
+  <div class="noticias">
+    <div class="noticia">
+      <h3>Inicio de Clases 2025</h3>
+      <p>Las clases inician el 3 de febrero de 2025. Los estudiantes deben presentarse con uniforme completo y materiales básicos.</p>
+    </div>
+    <div class="noticia">
+      <h3>Semana Cultural</h3>
+      <p>Del 10 al 14 de junio celebraremos nuestra Semana Cultural con presentaciones, ferias y muestras artísticas.</p>
+    </div>
+    <div class="noticia">
+      <h3>Reconocimientos Académicos</h3>
+      <p>Felicitamos a los estudiantes destacados por su esfuerzo y dedicación durante el año escolar 2024.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p><strong>Dirección:</strong> Calle Principal #123, Riverita</p>
+  <p><strong>Teléfono:</strong> (310) 555-7890</p>
+  <p><strong>Correo:</strong> contacto@riverita.edu.co</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Institución Educativa Riverita</p>
+  <p>Diseño exclusivo para computadoras | Proyecto web escolar</p>
+</footer>
+
+</body>
+</html>
